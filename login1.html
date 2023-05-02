@@ -42,7 +42,7 @@ header {
     margin-top: 5px;
     background-color: aliceblue;
     border: 1px solid rgb(255, 255, 255, .1);
-    border-radius: 10px;
+    border-radius: 15px;
     border-color: black;
     border-width: 1px;
     color: hsl(209, 13%, 58%);
@@ -109,132 +109,12 @@ header {
     left: 135px;
     top: -44px;
 }
-
-.paprica-img {
-    margin-left: 5%;
-    margin-top: 3%;
-    background-color: brown;
-    border: solid brown 12px;
-    width: 450px;
-    height: 450px;
-}
-
-.mexicoflag-img{
-    margin-left: -455px;
-    background-color: brown;
-    border: solid white 2px;
-    width: 75px;
-    height: 55px;
-}
-
-.corazon-img{
-    width: 40px;
-    height: 40px;
-    margin-left: 150px;
-    margin-top: 20px;
-}
-
-.cadeado-img{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    margin-left: -25;
-}
-
-.carrinho-img{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    margin-left: -25;
-}
-
-.endereço-img{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    margin-left: -25;
-}
-
-.text{
-    margin-top: -450px;
-    margin-left: 545px;
-    font-size: 25px;
-}
-
-.box-compra{
-    width: 350px;
-    height: 250px;
-    margin-top: -20%;
-    margin-right: -25px;
-    background-color: lightsalmon;
-    border-radius: 25px;
-}
-
-.text-comprar {
-    margin-left: 100px;
-    margin-top: 100px;
-}
-
-.text-informações-compra{
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-.btn:link, .btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 15px 40px;
-    display: inline-block;
-    border-radius: 100px;
-    transition: all .2s;
-    position: absolute;
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn-white {
-    background-color: brown;
-    color: white;
-    width: 200px;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: -75px;
-}
-
-.btn::after {
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-}
-
-.btn-white::after {
-    background-color: brown;
-}
-
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
 </style>
 </head>
 <body>
          <header>
          <div class="logo-pai">
-            <img class="logo-img" src="logo.png" alt="img logo">
+            <img class="logo-img" src="logo temperos.png" alt="img logo">
              </div>
              <form class="form-busca-site" action="busca.php">
              <input class="btn-text-top" type="text" name="txtsearch" placeholder="Buscar">
@@ -257,7 +137,28 @@ header {
             </ul>
         </nav>
         <li><a href="#"><img class="oferta-img" src="50%.png" alt=""></a></li>
-
+        </div>
+        <br>
+        <label for="Entrar">
+            <div class="box">
+            <h1>Entrar</h1>
+    
+            <label for="Login">Login:
+                <input type="text" placeholder="Digite seu Login" name="Login" class="input_text" id="Login">
+            </label>
+            <br>
+            <br>
+            <label for="Senha">
+                Senha:
+                <input type= "password" type="Senha" placeholder="Digite sua senha" id="Senha">
+            </label>
+           <br>
+                <input type="button" value="Entrar" class="button" name="Entrar"  q>
+                <p>Ainda não tem um cadastro?</p>
+                <li><a href="#">Cadastre-se.</a></li>
+        </div>
     </header>
     </body>
     </html>
+
+
