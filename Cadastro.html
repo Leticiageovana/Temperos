@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="icon" href="logo temperos.png">
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Open Sans', sans-serif;
+        }
+        body {
+            height: 120vh;
+            margin: 0;
+            background: url(imagemfundo3.png) no-repeat;
+            background-size: cover;
+        }
+        header {
+            width: 100%;
+            height: 10%;
+            background-color: brown;
+            display: flex;
+            justify-content: left;
+            align-items: left;
+        }
+        .form-busca-site {
+            width: 400px;
+            height: 100%;
+            margin-top: 10px;
+            margin-left: -820px;
+        }
+        .btn-text-top {
+            margin-top: 5px;
+            background-color: aliceblue;
+            border: 1px solid rgb(255, 255, 255, .1);
+            border-radius: 10px;
+            border-color: black;
+            border-width: 1px;
+            color: hsl(209, 13%, 58%);
+            height: 60%;
+            width: 80%;
+            padding: 15px 50px 15px 30px;
+        }
+        .btn-buscar-top {
+            background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
+            width: 20px;
+            height: 22px;
+            border: none;
+            position: relative;
+            top: -32px;
+            left: 8px;
+        }
+        #menu-h {
+            background-color: black;
+            margin-top: 0;
+        }
+        #menu-h ul {
+            max-width: 800px;
+            list-style: none;
+            padding: 0;
+        }
+        #menu-h ul li {
+            display: inline;
+        }
+        #menu-h ul li a {
+            color: white;
+            padding: 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        #menu-h ul li a:hover {
+            background-color: darkorange;
+        }
+        #menu-h ul li:last-child a {
+            float: right;
+            background-color: green;
+        }
+        .logo-pai {
+            margin-left: 20px;
+        }
+        .logo-img {
+            width: 60px;
+            height: 60px;
+            margin-left: 0;
+        }
+        .oferta-img {
+            width: 50px;
+            height: 30px;
+            position: relative;
+            left: 135px;
+            top: -44px;
+        }
+        .cadeado-img {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            margin-left: -25;
+        }
+        .carrinho-img {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            margin-left: -25;
+        }
+        .endereço-img {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            margin-left: -25;
+        }
+        .btn:visited {
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 15px 40px;
+            display: inline-block;
+            border-radius: 100px;
+            transition: all .2s;
+            position: absolute;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .btn:active {
+            transform: translateY(-1px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-white {
+            background-color: brown;
+            color: white;
+            width: 200px;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: -75px;
+        }
+
+        .btn::after {
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            border-radius: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all .4s;
+        }
+        .btn-white::after {
+            background-color: brown;
+        }
+
+        .btn:hover::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+        .Entrar {
+            height: 70px;
+            width: 10px;
+        }
+        .Imagem {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+
+        }
+        .form {
+            width: 200px;
+            height: 30px;
+            margin-top: 10px;
+            margin-left: 50px;
+            border-radius: 8px;
+        }
+        .form2 {
+            width: 200px;
+            height: 30px;
+            margin-top: -30px;
+            margin-left: 320px;
+            border-radius: 8px;
+        }
+        .retan {
+            height: 370px;
+            width: 700px;
+            background-color: brown;
+            border-radius: 40px 0px 40px 0px;
+            border: solid;
+            margin-top: 50px;
+        }
+        .Cadastro {
+            margin-left: 600px;
+            font-size: 40px;
+            color: rgb(149, 231, 55);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .btn1 {
+            width: 200px;
+            height: 50px;
+            background-color: rgb(149, 231, 55);
+            margin-left: 50px;
+            margin-top: 20px;
+            font-size: 15px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-radius: 15px;
+        }
+        .text{
+            margin-left: 50px;
+            margin-top: 4px;
+            color: white;
+            font-size: 17px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .text0{
+            margin-left: 50px;
+            margin-top: 9px;
+            color: white;
+            font-size: 17px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-pai">
+            <img class="logo-img" src="logo.png" alt="img logo">
+        </div>
+        <form class="form-busca-site" action="busca.php">
+            <input class="btn-text-top" type="text" name="txtsearch" placeholder="Buscar">
+        </form>
+    </header>
+    <nav id="menu-h">
+        <ul>
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li><a href="#">Países</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="login.html">Entrar</a></li>
+        </ul>
+    </nav>
+    <li><a href="#"><img class="oferta-img" src="50%.png" alt=""></a></li>
+    <br>
+    </div>
+    </header>
+    <p class="Cadastro">Cadastro</p>
+    <div class="retan">
+        <div class="form">
+            <p class="text0">Nome completo:</p>
+            <input class="form" type="Nome completo"  name="Nome completo"
+                size="50">
+            <br>
+            <p class="text0">Email:</p>
+            <input class="form" type="email" name="Email"  size="20">
+            <br>
+            <p class="text0">Nome de usuario:</p>
+            <input class="form" type="Nome de usuario" name="Nome dde usuario" size="20">
+            <br>
+            <p class="text0">Senha:</p>
+            <input class="form" type="password" name="Senha" id="senha"  size="20">
+            <br>
+            <p class="text0">Confirme senha:</p>
+            <input class="form" type="password" name="confirme senha" id="senha" size="20">
+        </div>
+        <div class="form2">
+            <p class="text">CPF:</p>
+            <input class="form" type="cpf" name="CPF"  size="20">
+            <br>
+            <p class="text">CEP:</p>
+            <input class="form" type="CEP" name="CEP"  size="20">
+            <br>
+            <p class="text">Endereço:</p>
+            <input class="form" type="Endereço" name="Endereço"  size="20">
+            <br>
+            <p class="text">Complemento:</p>
+            <input class="form" type="Complemento" name="Complemento"  size="20">
+            <br>
+            <button class="btn1">
+                <p>Cadastre-se</p>
+            </button>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
