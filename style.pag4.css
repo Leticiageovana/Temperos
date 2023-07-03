@@ -1,0 +1,642 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fixed-bbb{
+    width: 100%;
+    margin-top: -200px;
+    position: absolute;
+}
+
+body{
+    height: 350vh;
+    margin: 0;
+    background-color: gray;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    display: flex;
+    justify-content: left;
+}
+
+.form-busca-site {
+    width: 400px;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: -820px;
+}
+
+.btn-text-top {
+    margin-top: 5px;
+    background-color: aliceblue;
+    border: 1px solid rgb(255, 255, 255, .1);
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    color: hsl(209, 13%, 58%);
+    height: 60%;
+    width: 80%;
+    padding: 15px 50px 15px 30px;
+}
+
+.btn-buscar-top {
+    background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
+    width: 20px;
+    height: 22px;
+    border: none;
+    position: relative;
+    top: -32px;
+    left: 8px;
+}
+
+#menu-h {
+    background-color: black;
+    margin-top: 0;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h ul li a:hover {
+    background-color: darkorange;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: green;
+}
+
+.logo-pai {
+    margin-left: 20px;
+}
+
+.logo-img {
+    width: 65px;
+    height: 65px;
+    margin-left: 0;
+}
+
+.oferta-img {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: 135px;
+    top: -44px;
+}
+
+/* Mexico */
+
+.medium-box-mexico{
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.pai-tittle1{
+    margin-left: 60px;
+    margin-top: 100px;
+    width: 280px;
+    height: 45px;
+    margin-top: 200px;
+}
+
+.tittle1{
+    background-color: brown;
+    border: 4px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.pai-paprica{
+    width: 750px;
+    height: 250px;
+    margin-left: 60px;
+}
+
+.img-paprica {
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.text-paprica{
+    width: 300px;
+    height: 220px;
+    margin-top: -240px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+
+.pai-chili{
+    width: 750px;
+    height: 250px;
+}
+
+.img-chili{
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.mexicoflag1-img{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid white 2px;
+    width: 75px;
+    height: 55px;
+}
+
+.mexicoflag2-img{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid white 2px;
+    width: 75px;
+    height: 55px;
+}
+
+.text-chili{
+    margin-top: -240px;
+    margin-left: 270px;
+    width: 300px;
+    height: 220px;
+    font-size: 25px;
+}
+
+/* Estados Unidos */
+
+.medium-box-USA{
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.pai-tittle2{
+    margin-left: 60px;
+    margin-top: 90px;
+    width: 350px;
+    height: 45px;
+}
+
+.tittle2{
+    background-color: brown;
+    border: 4px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.pai-dryrub{
+    width: 750px;
+    height: 250px;
+    margin-left: 60px;
+}
+
+.dryrub-img {
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.text-dryrub{
+    width: 300px;
+    height: 220px;
+    margin-top: -240px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+
+.pai-Barbecue{
+    width: 750px;    
+    height: 250px;
+}
+
+.barbecue-img{
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.text-Barbecue{
+    width: 300px;
+    height: 220px;
+    margin-top: -240px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+
+.estados-unidos1-img{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid white 2px;
+    width: 75px;
+    height: 55px;
+}
+
+.estados-unidos2-img{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid white 2px;
+    width: 75px;
+    height: 55px;
+}
+
+/* Perú */
+
+.medium-box-Perú{
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.pai-tittle3{
+    margin-left: 60px;
+    margin-top: 90px;
+    width: 280px;
+    height: 45px;
+}
+
+.tittle3{
+    background-color: brown;
+    border: 4px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.pai-ají-amarillo{
+    width: 750px;
+    height: 250px;
+    margin-left: 60px;
+}
+
+.img-Aji-Amarillo {
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.text-Aji-Amarillo{
+    width: 300px;
+    height: 220px;
+    margin-top: -240px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+
+.pai-ají-panca{
+    width: 750px;
+    height: 250px;
+}
+
+.img-AJí-Panca{
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.img-flag-Perú1{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid white 2px;
+    width: 75px;
+    height: 55px;
+}
+
+.img-flag-Perú2{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid white 2px;
+    width: 75px;
+    height: 55px;
+}
+
+.text-AJí-Panca{
+    margin-top: -240px;
+    margin-left: 270px;
+    width: 300px;
+    height: 220px;
+    font-size: 25px;
+}
+
+/* China */
+
+.medium-box-China{
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.pai-tittle4{
+    margin-left: 60px;
+    margin-top: 90px;
+    width: 280px;
+    height: 45px;
+}
+
+.tittle4{
+    background-color: brown;
+    border: 4px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.pai-Cardamomo{
+    width: 750px;
+    height: 250px;
+    margin-left: 60px;
+}
+
+.img-Cardamomo{
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.text-Cardamomo{
+    width: 300px;
+    height: 220px;
+    margin-top: -240px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+
+.pai-Açafrão{
+    width: 750px;
+    height: 250px;
+}
+
+.img-Açafrão{
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.text-Açafrão{
+    margin-top: -240px;
+    margin-left: 270px;
+    width: 300px;
+    height: 220px;
+    font-size: 25px;
+}
+
+.img-flag-China1{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid white 2px;
+    width: 75px;
+    height: 55px;
+}
+
+.img-flag-China2{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid white 2px;
+    width: 75px;
+    height: 55px;
+}
+
+/* Japão */
+
+.medium-box-Japão{
+    width: 100%;
+    height: 250px;
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.pai-tittle5{
+    margin-left: 60px;
+    margin-top: 90px;
+    width: 280px;
+    height: 45px;
+}
+
+.tittle5{
+    background-color: brown;
+    border: 4px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.pai-Gergelim-Preto{
+    width: 750px;
+    height: 250px;
+    margin-left: 60px;
+}
+
+.img-Gergelim-Preto{
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.text-Gergelim-Preto{
+    width: 300px;
+    height: 220px;
+    margin-top: -240px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+
+.pai-Aonori{
+    width: 750px;
+    height: 250px;
+}
+
+.img-Aonori{
+    background-color: brown;
+    border: solid brown 8px;
+    width: 250px;
+    height: 250px;
+}
+
+.text-Aonori{
+    margin-top: -240px;
+    margin-left: 270px;
+    width: 300px;
+    height: 220px;
+    font-size: 25px;
+}
+
+.img-flag-Japão1{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid black 2px;
+    width: 75px;
+    height: 55px;
+}
+
+.img-flag-Japão2{
+    margin-left: -255px;
+    background-color: brown;
+    border: solid black 2px;
+    width: 75px;
+    height: 55px;
+}
+
+/* Botao comprar e oferta */
+
+.pai-compra{
+    font-weight: 800;
+}
+
+.btn:link{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 50px;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: brown;
+    color: white;
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: brown;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.0) scaleY(1.2);
+    opacity: 0;
+}
+
+/* Rodape */
+
+.container{
+    width: 100%;
+    height: 353px;
+    margin-top: 80px;
+    background-color: rgba(69, 174, 69, 0.984);
+    border-top: 3px white solid;
+}
+
+.box-logo2-tittle{
+    width: 450px;
+    height: 350px;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+}
+
+.pai-logo-img2{
+    width: 160px;
+    height: 180px;
+}
+
+.logo-img2{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.box-text-title-frase{
+    width: 430px;
+    height: 180px;
+}
+
+.tittle-container{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    margin-top: -20px;
+}
+
+.pai-text-frase{
+    width: 430px;
+    height: 65px;
+    margin-top: -25px;
+}
+
+.text-frase{
+    font-size: 25px;
+    margin-left: 70px;
+    color: rgb(0, 44, 139);
+}
+
+/* logo-contato */
+
+.box-logo-contato-img{
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    margin-top: -85px;
+}
+
+.logo-contato{
+    width: 65px;
+    height: 65px;
+}

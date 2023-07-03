@@ -1,0 +1,238 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fixed-bbb{
+    width: 100%;
+}
+
+body {
+    height: 135vh;
+    margin: 0;
+    background-color: lightgray;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.form-busca-site {
+    width: 400px;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: -250px;
+}
+
+.btn-text-top {
+    margin-top: 5px;
+    background-color: aliceblue;
+    border: 1px solid rgb(255, 255, 255, .1);
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    color: hsl(209, 13%, 58%);
+    height: 60%;
+    width: 80%;
+    padding: 15px 50px 15px 30px;
+}
+
+.btn-buscar-top {
+    background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
+    width: 20px;
+    height: 22px;
+    border: none;
+    position: relative;
+    top: -32px;
+    left: 8px;
+}
+
+#menu-h {
+    background-color: black;
+    margin-top: 0;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h ul li a:hover {
+    background-color: darkorange;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: green;
+}
+
+.logo-pai {
+    margin-left: 20px;
+}
+
+.logo-img {
+    width: 65px;
+    height: 65px;
+    margin-left: 0;
+}
+
+.pai-oferta{
+    width: 50px;
+    height: 30px;
+}
+
+.oferta-img {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: -500px;
+    top: -44px;
+}
+
+.carrinho-cabecalho{
+    width: 60px;
+    height: 60px;
+}
+
+.img-carrinho{
+    width: 60px;
+    height: 60px;
+    margin-left: 200px;
+}
+
+/* header */
+
+.pai-img-logo-whatsapp{
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+}
+
+.img-logo-whatsapp{
+    width: 80px;
+    height: 80px;
+}
+
+/* body */
+
+.cuerpo-medio{
+    width: 500px;
+    height: 620px;
+}
+
+.title{
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: -90px;
+}
+
+.title h2{
+    font-family: 'Kablammo', cursive;
+}
+
+.pai-logo{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+.img-logo {
+    width: 190px;
+    height: 190px;
+}
+
+.box-text{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+.text-contato{
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.fundo-contato{
+    width: 160px;
+    height: 10px;
+    margin-top: -23px;
+    background-color: burlywood;
+}
+
+.linea {
+    border-top: 2px solid burlywood;
+    /* height: 2px; */
+    width: 400px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* redes sociais */
+
+.pai-redes-sociais{
+    width: 60px;
+    height: 200px;
+    margin-left: 1250px;
+    margin-top: -190px;
+}
+
+.logo-instagram{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-youtube{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-facebook{
+    width: 50px;
+    height: 50px;
+}
+
+.logo-twitter{
+    width: 50px;
+    height: 50px;
+}
+
+.rodape{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+.pai-text-rodape{
+    width: 100px;
+    height: 70px;
+}
+
+.text-rodape{
+    text-align: center;
+    color: white;
+}

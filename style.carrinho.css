@@ -1,0 +1,325 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fixed-bbb{
+    width: 100%;
+}
+
+body {
+    height: 120vh;
+    margin: 0;
+    background: url(imagemfundo.jpg);
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.form-busca-site {
+    width: 400px;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: -820px;
+}
+
+.btn-text-top {
+    margin-top: 5px;
+    background-color: aliceblue;
+    border: 1px solid rgb(255, 255, 255, .1);
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    color: hsl(209, 13%, 58%);
+    height: 60%;
+    width: 80%;
+    padding: 15px 50px 15px 30px;
+}
+
+.btn-buscar-top {
+    background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
+    width: 20px;
+    height: 22px;
+    border: none;
+    position: relative;
+    top: -32px;
+    left: 8px;
+}
+
+#menu-h {
+    background-color: black;
+    margin-top: 0;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h ul li a:hover {
+    background-color: darkorange;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: green;
+}
+
+.logo-pai {
+    margin-left: 20px;
+    position: sticky;
+    height: 30px;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 0;
+}
+
+.pai-oferta{
+    width: 50px;
+    height: 30px;
+    
+}
+
+.oferta-img {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: -500px;
+    top: -44px;
+}
+hr{
+    border: solid 2px;
+    color: black;
+}
+.papricapicante{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.texto1{
+    color: white;
+    font-size: 25px;
+    margin-top: -190px;
+    margin-left: 270px;
+    color: white;
+}
+.texto2{
+    font-size: 23px;
+    margin-left: 270px;
+    margin-top: 10px;
+    color: greenyellow;
+}
+.texto3{
+    font-size: 15px;
+    margin-left: 370px;
+    margin-top: -20px;
+    color: white;
+}
+.texto4{
+    margin-top: 65px;
+    font-size: 20px;
+    margin-right: 670px;
+    margin-left: 270px;
+    color: white;
+}
+.botão{
+transform: translateY(-100px) translateX(950px);
+height: 50px;
+width: 150px;
+border-radius: 15px;
+}
+.Alecrim{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.texto5{
+    color: white;
+    font-size: 25px;
+    margin-top: -190px;
+    margin-left: 270px;
+    color: white;
+}
+.texto6{
+    font-size: 23px;
+    margin-left: 270px;
+    margin-top: 10px;
+    color: greenyellow;
+}
+.texto7{
+    font-size: 15px;
+    margin-left: 370px;
+    margin-top: -20px;
+    color: white;
+}
+.texto8{
+    margin-top: 65px;
+    font-size: 20px;
+    margin-right: 670px;
+    margin-left: 270px;
+    color: white;
+}
+.botão2{
+    transform: translateY(-100px) translateX(950px);
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.Chiliempó{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.texto9{
+    color: white;
+    font-size: 25px;
+    margin-top: -190px;
+    margin-left: 270px;
+    color: white;
+}
+.texto10{
+    font-size: 23px;
+    margin-left: 270px;
+    margin-top: 10px;
+    color: greenyellow;
+}
+.texto11{
+    font-size: 15px;
+    margin-left: 370px;
+    margin-top: -20px;
+    color: white;
+}
+.texto12{
+    margin-top: 65px;
+    font-size: 20px;
+    margin-right: 670px;
+    margin-left: 270px;
+    color: white;
+}
+.botão3{
+    transform: translateY(-100px) translateX(950px);
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.retan {
+    height: 180px;
+    width: 1300px;
+    background-color: lightsalmon;
+    border-radius: 40px 40px 0px 0px;
+    border: solid;
+    margin-top: 50px;
+}
+.texto13{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: greenyellow;
+}
+.endereço-img{
+    height: 25px;
+    width: 25px;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+.texto14{
+    margin-left: 80px;
+    margin-top: -25px;
+    color: white;
+    font-size: 19px;
+}
+.texto15{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 19px;
+    color: white;
+}
+.Ruaenúmero{
+    transform: translateY(-20px) translateX(180px);
+}
+.texto16{
+    margin-left: 40px;
+    margin-top: -10px;
+    color: white;
+    font-size: 19px;
+}
+.Cep{
+    transform: translateY(-20px) translateX(90px);
+}
+.hr2{
+    transform: translateY(-170px) translateX(-200px);
+    height: 160px;
+    width: 0px;
+    border: solid 2px;
+    color: black;
+}
+.texto17{
+    margin-left: 480px;
+    margin-top: -310px;
+    font-size: 20px;
+    color: greenyellow;
+}
+.texto18{
+    margin-top: 10px;
+    margin-left: 470px;
+    font-size: 19px;
+    color: white;
+}
+.texto19{
+    margin-top: 10px;
+    margin-left: 470px;
+    font-size: 19px;
+    color: white;
+}
+.texto20{
+    margin-top: 10px;
+    margin-left: 470px;
+    font-size: 19px;
+    color: white;
+}
+.hr3{
+    transform: translateY(-140px) translateX(100px);
+    height: 160px;
+    width: 0px;
+    border: solid 2px;
+    color: black;
+}
+.texto21{
+    margin-left: 800px;
+    margin-top: -260px;
+    font-size: 20px;
+    color: greenyellow;
+}
+.botão4{
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    margin-left: 1000px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}

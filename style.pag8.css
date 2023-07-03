@@ -1,0 +1,317 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 130vh;
+    margin: 0;
+    background-color: lightgray;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.form-busca-site {
+    width: 400px;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: -820px;
+}
+
+.btn-text-top {
+    margin-top: 5px;
+    background-color: aliceblue;
+    border: 1px solid rgb(255, 255, 255, .1);
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    color: hsl(209, 13%, 58%);
+    height: 60%;
+    width: 80%;
+    padding: 15px 50px 15px 30px;
+}
+
+.btn-buscar-top {
+    background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
+    width: 20px;
+    height: 22px;
+    border: none;
+    position: relative;
+    top: -32px;
+    left: 8px;
+}
+
+#menu-h {
+    background-color: black;
+    margin-top: 0;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h ul li a:hover {
+    background-color: darkorange;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: green;
+}
+
+.logo-pai {
+    margin-left: 20px;
+}
+
+.logo-img {
+    width: 65px;
+    height: 65px;
+    margin-left: 0;
+}
+
+.pai-oferta{
+    width: 50px;
+    height: 30px;
+}
+
+.oferta-img {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: -500px;
+    top: -44px;
+}
+
+/* BOX1 */
+
+.box-1{
+    margin-top: -30px;
+    width: 100%;
+    height: 350px;
+}
+
+.elemento-1{
+    width: 100%;
+    height: 350px;
+}
+
+.box-text-title-frase{
+    margin-top: -300px;
+    margin-left: 260px;
+    width: 500px;
+    height: 180px;
+    display: inline-block;
+}
+
+.tittle-elemento-1{
+    font-size: 45px;
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.text-frase{
+    font-size: 25px;
+    margin-left: 70px;
+    color: rgb(0, 44, 139);
+}
+
+.pai-img-big-logo{
+    width: 220px;
+    height: 220px;
+    margin-top: -310px;
+    margin-left: 850px;
+}
+
+.img-big-logo{
+    width: 200px;
+    height: 200px;
+}
+
+/* BOX2 */
+
+.box-historia{
+    margin-top: 0;
+    margin-left: 0;
+    width: 55%;
+    height: 600px;
+}
+
+.img-titulo-historia{
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 700px;
+    height: 250px;
+}
+
+.text-historia{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(70, 70, 70);
+    width: 600px;
+    height: 300px;
+}
+
+.pai-anuncio-booq{
+    margin-left: 80px;
+    width: 680px;
+    height: 115px;
+}
+
+.anuncio-booq{
+    width: 680px;
+    height: 95px;
+}
+
+.box-temperos-sem-fundo{
+    margin-left: 750px;
+    margin-top: -600px;
+    height: 770px;
+    width: 620px;
+}
+
+.img-temperos-sem-fundo{
+    height: 750px;
+    width: 600px;
+}
+
+/* BOX3 */
+
+.box-2{
+    width: 100%;
+    height: 350px;
+    margin-top: -350px;
+}
+
+.elemento-2{
+    width: 100%;
+    height: 350px;
+}
+
+.medium-box{
+    width: 100%;
+    height: 290px;
+    display: inline-flex;
+    margin-top: 60px;
+}
+
+.pai-img-logo{
+    width: 130px;
+    height: 130px;
+    margin-left: 50px;
+}
+
+.img-logo{
+    width: 120px;
+    height: 120px;
+}
+
+.ONI-formas-de-pagamento{
+    width: 33.3%;
+}
+
+.pai-text-formas-de-pagamento{
+    margin-left: 30px;
+}
+
+.text-formas-de-pagamento{
+    font-size: 20px;
+    font-weight: 700;
+    color: darkblue;
+    margin-top: 30px;
+}
+
+.formas-de-pagamento{ /*diferencia de 20 px */
+    width: 280px;
+    height: 90px;
+    border: white solid 5px;
+    border-radius: 5px;
+}
+
+.meios-de-envio{
+    width: 150px;
+    height: 70px;
+    border: white solid 5px;
+    border-radius: 5px;
+}
+
+/*  */
+
+.ONI-empresa{
+    width: 33.3%;
+}
+
+.pai-logo-img2{
+    width: 160px;
+    height: 180px;
+}
+
+.logo-img2{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.box-text-title{
+    width: 300px;
+    height: 50px;
+}
+
+.tittle-empresa{
+    font-size: 30px;
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+}
+
+/* logo-contato */
+
+.ONI-contato{
+    width: 33.3%;
+}
+
+.pai-logo-contato{
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    margin-top: 190px;
+    margin-right: 10px;
+}
+
+.logo-contato{
+    width: 85px;
+    height: 85px;
+}
+
+/* script */
+
+#maptitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    visibility: hidden;
+}

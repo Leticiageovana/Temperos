@@ -1,0 +1,338 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fixed-bbb{
+    width: 100%;
+}
+
+body {
+    height: 120vh;
+    margin: 0;
+    background: url(imagemfundo.jpg);
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: brown;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.form-busca-site {
+    width: 400px;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: -820px;
+}
+
+.btn-text-top {
+    margin-top: 5px;
+    background-color: aliceblue;
+    border: 1px solid rgb(255, 255, 255, .1);
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    color: hsl(209, 13%, 58%);
+    height: 60%;
+    width: 80%;
+    padding: 15px 50px 15px 30px;
+}
+
+.btn-buscar-top {
+    background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
+    width: 20px;
+    height: 22px;
+    border: none;
+    position: relative;
+    top: -32px;
+    left: 8px;
+}
+
+#menu-h {
+    background-color: black;
+    margin-top: 0;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h ul li a:hover {
+    background-color: darkorange;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: green;
+}
+
+.logo-pai {
+    margin-left: 20px;
+    position: sticky;
+    height: 30px;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 0;
+}
+
+.pai-oferta{
+    width: 50px;
+    height: 30px;
+    
+}
+
+.oferta-img {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: -500px;
+    top: -44px;
+}
+
+.texto {
+    width: 20%;
+    height: 20%;
+    color: azure;
+    margin-top: 15%;
+}
+
+/* .dois {
+    background-color: rgb(245, 1, 1);
+    width: 300px;
+    height: 160px;
+    border-color: #a22828;
+    margin-left: 80px;
+    border-radius: 15px;
+    background: url(recomendaçao3.png) no-repeat;
+
+}
+
+.tres {
+    background-color: rgb(245, 1, 1);
+    width: 350px;
+    height: 207px;
+    border-color: #a22828;
+    border-radius: 15px;
+    background: url(auauau2.png);
+}
+
+.quatro {
+    background-color: rgb(245, 1, 1);
+    width: 300px;
+    height: 160px;
+    border-color: #a22828;
+    margin-right: 80px;
+    border-radius: 15px;
+    background: url(uauaua2.png);
+} */
+
+.flex-conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+
+
+}
+
+/* .flex-conteiner2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+} */
+
+
+.cabeçalho {
+    width: 100%;
+    height: 7%;
+    background-color: #a22828;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    position: fixed;
+    top: 20px;
+}
+
+/* .cinco {
+    background-color: rgb(245, 1, 1);
+    width: 400px;
+    height: 250px;
+    border-color: #a22828;
+    border-radius: 15px;
+    display: inline-flex;
+    margin-left: 30px;
+}*/
+
+.texto2 {
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: white;
+}
+.PimentadoReino{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.texto3{
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: -190px;
+    color: white;
+}
+.texto4{
+    font-size: 23px;
+    margin-left: 250px;
+    margin-top: 10px;
+    color: greenyellow;
+}
+.texto5{
+    font-size: 15px;
+    margin-left: 350px;
+    margin-top: -20px;
+    color: white;
+}
+.texto6{
+    font-size: 20px;
+    margin-left: 250px;
+    margin-right: 800px;
+    margin-top: 65px;
+    color: white;
+}
+.Alecrim{
+    margin-left: 650px;
+    margin-top: -180px;
+}
+.texto7{
+    font-size: 25px;
+    margin-top: -190px;
+    margin-left: 875px;
+    color: white;
+}
+.texto8{
+    font-size: 23px;
+    margin-left: 875px;
+    margin-top: 10px;
+    color: greenyellow;
+}
+.texto9{
+    font-size: 15px;
+    margin-left: 980px;
+    margin-top: -20px;
+    color: white;
+}
+.texto10{
+    margin-top: 65px;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 875px;
+    color: white;
+}
+
+.barbecueempo{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.texto11{
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: -190px;
+    color: white;
+}
+.texto12{
+    font-size: 23px;
+    margin-left: 250px;
+    margin-top: 10px;
+    color: greenyellow;
+}
+.texto13{
+    font-size: 15px;
+    margin-left: 350px;
+    margin-top: -20px;
+    color: white;
+}
+.texto14{
+    font-size: 20px;
+    margin-left: 250px;
+    margin-right: 800px;
+    margin-top: 55px;
+    color: white;
+}
+.papricapicante{
+    margin-left: 650px;
+    margin-top: -195px;
+}
+.texto15{
+    font-size: 25px;
+    margin-top: -190px;
+    margin-left: 875px;
+    color: white;
+}
+.texto16{
+    font-size: 23px;
+    margin-left: 875px;
+    margin-top: 10px;
+    color: greenyellow;
+}
+.texto17{
+    font-size: 15px;
+    margin-left: 980px;
+    margin-top: -20px;
+    color: white;
+}
+.texto18{
+    margin-top: 65px;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 875px;
+    color: white;
+}
+.meuSlide{
+    display: none;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+.slide{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0% - 50%);
+    opacity: 0.8;
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0% - 50%);
+}
