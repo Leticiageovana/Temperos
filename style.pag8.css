@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 130vh;
+    height: 120vh;
     margin: 0;
     background-color: lightgray;
     background-size: cover;
@@ -25,7 +25,7 @@ header {
     width: 400px;
     height: 100%;
     margin-top: 10px;
-    margin-left: -820px;
+    margin-left: -250px;
 }
 
 .btn-text-top {
@@ -104,6 +104,19 @@ header {
     left: -500px;
     top: -44px;
 }
+
+.carrinho-cabecalho{
+    width: 40px;
+    height: 40px;
+}
+
+.img-carrinho{
+    width: 40px;
+    height: 40px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
 
 /* BOX1 */
 

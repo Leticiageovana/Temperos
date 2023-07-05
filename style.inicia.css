@@ -18,7 +18,7 @@ body {
 
 header {
     width: 100%;
-    height: 10%;
+    height: 80px;
     background-color: brown;
     display: flex;
     justify-content: left;
@@ -29,7 +29,7 @@ header {
     width: 400px;
     height: 100%;
     margin-top: 10px;
-    margin-left: -820px;
+    margin-left: -250px;
 }
 
 .btn-text-top {
@@ -88,20 +88,17 @@ header {
 
 .logo-pai {
     margin-left: 20px;
-    position: sticky;
-    height: 30px;
 }
 
 .logo-img {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     margin-left: 0;
 }
 
 .pai-oferta{
     width: 50px;
     height: 30px;
-    
 }
 
 .oferta-img {
@@ -112,6 +109,18 @@ header {
     top: -44px;
 }
 
+.carrinho-cabecalho{
+    width: 40px;
+    height: 40px;
+}
+
+.img-carrinho{
+    width: 40px;
+    height: 40px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
 .texto {
     width: 20%;
     height: 20%;
@@ -119,35 +128,7 @@ header {
     margin-top: 15%;
 }
 
-/* .dois {
-    background-color: rgb(245, 1, 1);
-    width: 300px;
-    height: 160px;
-    border-color: #a22828;
-    margin-left: 80px;
-    border-radius: 15px;
-    background: url(recomendaçao3.png) no-repeat;
 
-}
-
-.tres {
-    background-color: rgb(245, 1, 1);
-    width: 350px;
-    height: 207px;
-    border-color: #a22828;
-    border-radius: 15px;
-    background: url(auauau2.png);
-}
-
-.quatro {
-    background-color: rgb(245, 1, 1);
-    width: 300px;
-    height: 160px;
-    border-color: #a22828;
-    margin-right: 80px;
-    border-radius: 15px;
-    background: url(uauaua2.png);
-} */
 
 .flex-conteiner {
     width: 100%;
@@ -158,13 +139,6 @@ header {
 
 
 }
-
-/* .flex-conteiner2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 80px;
-} */
 
 
 .cabeçalho {
@@ -177,16 +151,6 @@ header {
     position: fixed;
     top: 20px;
 }
-
-/* .cinco {
-    background-color: rgb(245, 1, 1);
-    width: 400px;
-    height: 250px;
-    border-color: #a22828;
-    border-radius: 15px;
-    display: inline-flex;
-    margin-left: 30px;
-}*/
 
 .texto2 {
     font-size: 40px;
@@ -224,24 +188,24 @@ header {
     color: white;
 }
 .Alecrim{
-    margin-left: 650px;
-    margin-top: -180px;
+    margin-left: 750px;
+    margin-top: -150px;
 }
 .texto7{
     font-size: 25px;
     margin-top: -190px;
-    margin-left: 875px;
+    margin-left: 970px;
     color: white;
 }
 .texto8{
     font-size: 23px;
-    margin-left: 875px;
+    margin-left: 970px;
     margin-top: 10px;
     color: greenyellow;
 }
 .texto9{
     font-size: 15px;
-    margin-left: 980px;
+    margin-left: 1070px;
     margin-top: -20px;
     color: white;
 }
@@ -249,7 +213,7 @@ header {
     margin-top: 65px;
     font-size: 20px;
     margin-right: 50px;
-    margin-left: 875px;
+    margin-left: 970px;
     color: white;
 }
 
@@ -283,24 +247,24 @@ header {
     color: white;
 }
 .papricapicante{
-    margin-left: 650px;
-    margin-top: -195px;
+    margin-left: 750px;
+    margin-top: -170px;
 }
 .texto15{
     font-size: 25px;
     margin-top: -190px;
-    margin-left: 875px;
+    margin-left: 970px;
     color: white;
 }
 .texto16{
     font-size: 23px;
-    margin-left: 875px;
+    margin-left: 970px;
     margin-top: 10px;
     color: greenyellow;
 }
 .texto17{
     font-size: 15px;
-    margin-left: 980px;
+    margin-left: 1070px;
     margin-top: -20px;
     color: white;
 }
@@ -308,7 +272,7 @@ header {
     margin-top: 65px;
     font-size: 20px;
     margin-right: 50px;
-    margin-left: 875px;
+    margin-left: 970px;
     color: white;
 }
 .meuSlide{

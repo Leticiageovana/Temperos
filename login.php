@@ -18,14 +18,14 @@ if($_SERVER["REQUEST_METHON"] === 'POST'){
     if($resultado->num_rows ===1){
         //login foi efetuado com sucesso.
         $_SESSION['email'] = $email;
-        header("Location: login.html");]
+        header("Location: inicial.html");]
         exit();
 
     }else{
         $erro = "Credenciais inválidas. Verrificar seu email e senha";
+        echo("Credenciais inválidas. Verrificar seu email e senha");
     }
 
-}
 
 $conexao->close();
 

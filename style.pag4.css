@@ -12,25 +12,26 @@
 }
 
 body{
-    height: 350vh;
+    height: 120vh;
     margin: 0;
     background-color: gray;
     background-size: cover;
 }
 
-header{
+header {
     width: 100%;
     height: 80px;
     background-color: brown;
     display: flex;
     justify-content: left;
+    align-items: left;
 }
 
 .form-busca-site {
     width: 400px;
     height: 100%;
     margin-top: 10px;
-    margin-left: -820px;
+    margin-left: -250px;
 }
 
 .btn-text-top {
@@ -97,12 +98,29 @@ header{
     margin-left: 0;
 }
 
+.pai-oferta{
+    width: 50px;
+    height: 30px;
+}
+
 .oferta-img {
     width: 50px;
     height: 30px;
     position: relative;
-    left: 135px;
+    left: -500px;
     top: -44px;
+}
+
+.carrinho-cabecalho{
+    width: 40px;
+    height: 40px;
+}
+
+.img-carrinho{
+    width: 40px;
+    height: 40px;
+    margin-left: 250px;
+    margin-top: 20px;
 }
 
 /* Mexico */

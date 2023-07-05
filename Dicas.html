@@ -14,16 +14,20 @@
             font-family: 'Open Sans', sans-serif;
         }
 
+        .fixed-bbb{
+            width: 100%;
+        }
+
         body {
             height: 120vh;
             margin: 0;
-            background: url(imagemfundo.png) ;
+            background: url(imagemfundo.jpg);
             background-size: cover;
         }
 
         header {
             width: 100%;
-            height: 10%;
+            height: 80px;
             background-color: brown;
             display: flex;
             justify-content: left;
@@ -34,7 +38,7 @@
             width: 400px;
             height: 100%;
             margin-top: 10px;
-            margin-left: -820px;
+            margin-left: -250px;
         }
 
         .btn-text-top {
@@ -49,6 +53,7 @@
             width: 80%;
             padding: 15px 50px 15px 30px;
         }
+
         .btn-buscar-top {
             background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
             width: 20px;
@@ -58,27 +63,33 @@
             top: -32px;
             left: 8px;
         }
+
         #menu-h {
             background-color: black;
             margin-top: 0;
         }
+
         #menu-h ul {
             max-width: 800px;
             list-style: none;
             padding: 0;
         }
+
         #menu-h ul li {
             display: inline;
         }
+
         #menu-h ul li a {
             color: white;
             padding: 20px;
             display: inline-block;
             text-decoration: none;
         }
+
         #menu-h ul li a:hover {
             background-color: darkorange;
         }
+
         #menu-h ul li:last-child a {
             float: right;
             background-color: green;
@@ -89,17 +100,34 @@
         }
 
         .logo-img {
-            width: 60px;
-            height: 60px;
+            width: 65px;
+            height: 65px;
             margin-left: 0;
+        }
+
+        .pai-oferta{
+            width: 50px;
+            height: 30px;
         }
 
         .oferta-img {
             width: 50px;
             height: 30px;
             position: relative;
-            left: 135px;
+            left: -500px;
             top: -44px;
+        }
+
+        .carrinho-cabecalho{
+            width: 40px;
+            height: 40px;
+        }
+
+        .img-carrinho{
+            width: 40px;
+            height: 40px;
+            margin-left: 250px;
+            margin-top: 20px;
         }
 
         .cadeado-img {
@@ -109,12 +137,12 @@
             margin-left: -25;
         }
 
-        .carrinho-img {
+        /* .carrinho-img {
             width: 20px;
             height: 20px;
             position: absolute;
             margin-left: -25;
-        }
+        } */
 
         .endereço-img {
             width: 20px;
@@ -286,11 +314,21 @@
 <body>
     <header>
         <div class="logo-pai">
+            <a href="Inicial.html"></a>
             <img class="logo-img" src="logo.png" alt="img logo">
+            </a>
         </div>
         <form class="form-busca-site" action="busca.php">
             <input class="btn-text-top" type="text" name="txtsearch" placeholder="Buscar">
+            <div>
+                <button class="btn-buscar-top" type="submit"></button>
+            </div>
         </form>
+        <div class="carrinho-cabecalho">
+            <a href="carrinho.html">
+                <img class="img-carrinho" src="carrinho-img.png" alt="carrinho">
+            </a>
+        </div>
     </header>
     <nav id="menu-h">
         <ul>
@@ -320,7 +358,7 @@
         <p>Para você que ama uma comida mais apimentada, vai amar a Paprica Picante: </p>
     </div>
 
-    <div class="pai-papricapicante"><img class="papricapicante" src="papricapicante.png" alt="papricapicante">
+    <div class="pai-papricapicante"><a href="Paprica.html"><img class="papricapicante" src="papricapicante.png" alt="papricapicante"></a>
     <p class="texto2">Uma especiaria nascida na região da América Central e do México, sendo rica em diversas vitaminas.</p>
     </div>
     <div class="texto3">

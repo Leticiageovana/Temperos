@@ -21,18 +21,20 @@
         }
         header {
             width: 100%;
-            height: 10%;
+            height: 80px;
             background-color: brown;
             display: flex;
             justify-content: left;
             align-items: left;
         }
+
         .form-busca-site {
             width: 400px;
             height: 100%;
             margin-top: 10px;
-            margin-left: -820px;
+            margin-left: -250px;
         }
+
         .btn-text-top {
             margin-top: 5px;
             background-color: aliceblue;
@@ -45,6 +47,7 @@
             width: 80%;
             padding: 15px 50px 15px 30px;
         }
+
         .btn-buscar-top {
             background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
             width: 20px;
@@ -54,45 +57,71 @@
             top: -32px;
             left: 8px;
         }
+
         #menu-h {
             background-color: black;
             margin-top: 0;
         }
+
         #menu-h ul {
             max-width: 800px;
             list-style: none;
             padding: 0;
         }
+
         #menu-h ul li {
             display: inline;
         }
+
         #menu-h ul li a {
             color: white;
             padding: 20px;
             display: inline-block;
             text-decoration: none;
         }
+
         #menu-h ul li a:hover {
             background-color: darkorange;
         }
+
         #menu-h ul li:last-child a {
             float: right;
             background-color: green;
         }
+
         .logo-pai {
             margin-left: 20px;
         }
+
         .logo-img {
-            width: 60px;
-            height: 60px;
+            width: 65px;
+            height: 65px;
             margin-left: 0;
         }
+
+        .pai-oferta{
+            width: 50px;
+            height: 30px;
+        }
+
         .oferta-img {
             width: 50px;
             height: 30px;
             position: relative;
-            left: 135px;
+            left: -500px;
             top: -44px;
+        }
+
+        .carrinho-cabecalho{
+            width: 40px;
+            height: 40px;
+        }
+
+        .img-carrinho{
+            width: 40px;
+            height: 40px;
+            margin-left: 250px;
+            margin-top: 20px;
         }
         .cadeado-img {
             width: 20px;
@@ -100,12 +129,12 @@
             position: absolute;
             margin-left: -25;
         }
-        .carrinho-img {
+        /* .carrinho-img {
             width: 20px;
             height: 20px;
             position: absolute;
             margin-left: -25;
-        }
+        } */
         .endereço-img {
             width: 20px;
             height: 20px;
@@ -158,10 +187,7 @@
             transform: scaleX(1.4) scaleY(1.6);
             opacity: 0;
         }
-        .Entrar {
-            height: 70px;
-            width: 10px;
-        }
+         
         .Imagem {
             width: 100%;
             display: flex;
@@ -179,9 +205,10 @@
         .form2 {
             width: 200px;
             height: 30px;
-            margin-top: -30px;
-            margin-left: 320px;
+            margin-top: -360px;
+            margin-right: 650px;
             border-radius: 8px;
+            /* align-items: center; */
         }
         .retan {
             height: 370px;
@@ -192,7 +219,7 @@
             margin-top: 50px;
         }
         .Cadastro {
-            margin-left: 600px;
+            margin-left: 730px;
             font-size: 40px;
             color: rgb(149, 231, 55);
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -231,7 +258,15 @@
         </div>
         <form class="form-busca-site" action="busca.php">
             <input class="btn-text-top" type="text" name="txtsearch" placeholder="Buscar">
+            <div>
+                <button class="btn-buscar-top" type="submit"></button>
+            </div>
         </form>
+        <div class="carrinho-cabecalho">
+            <a href="carrinho.html">
+                <img class="img-carrinho" src="carrinho-img.png" alt="carrinho">
+            </a>
+        </div>
     </header>
     <nav id="menu-h">
         <ul>
@@ -253,7 +288,7 @@
     </header>
     <p class="Cadastro">Cadastro</p>
     <div class="retan">
-        <div class="form">
+        <form action="cadastro.php" method="POST">
             <p class="text0">Nome completo:</p>
             <input class="form" type="Nome completo"  name="Nome completo"
                 size="50">
@@ -288,6 +323,7 @@
             </button>
             </button>
         </div>
+    </form>
     </div>
 </body>
 </html>

@@ -20,18 +20,20 @@
         }
         header {
             width: 100%;
-            height: 10%;
+            height: 80px;
             background-color: brown;
             display: flex;
             justify-content: left;
             align-items: left;
         }
+
         .form-busca-site {
             width: 400px;
             height: 100%;
             margin-top: 10px;
-            margin-left: -820px;
+            margin-left: -250px;
         }
+
         .btn-text-top {
             margin-top: 5px;
             background-color: aliceblue;
@@ -44,6 +46,7 @@
             width: 80%;
             padding: 15px 50px 15px 30px;
         }
+
         .btn-buscar-top {
             background: url("http://www.devmedia.com.br/imagens/2013/buscar_grey.png") no-repeat;
             width: 20px;
@@ -53,52 +56,73 @@
             top: -32px;
             left: 8px;
         }
+
         #menu-h {
             background-color: black;
             margin-top: 0;
         }
+
         #menu-h ul {
             max-width: 800px;
             list-style: none;
             padding: 0;
-        } 
+        }
+
         #menu-h ul li {
             display: inline;
         }
+
         #menu-h ul li a {
             color: white;
             padding: 20px;
             display: inline-block;
             text-decoration: none;
         }
+
         #menu-h ul li a:hover {
             background-color: darkorange;
         }
+
         #menu-h ul li:last-child a {
             float: right;
             background-color: green;
         }
+
         .logo-pai {
             margin-left: 20px;
         }
+
         .logo-img {
-            width: 60px;
-            height: 60px;
+            width: 65px;
+            height: 65px;
             margin-left: 0;
         }
+
+        .pai-oferta{
+            width: 50px;
+            height: 30px;
+        }
+
         .oferta-img {
             width: 50px;
             height: 30px;
             position: relative;
-            left: 135px;
+            left: -500px;
             top: -44px;
         }
-        .carrinho-img {
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            margin-left: -25;
+
+        .carrinho-cabecalho{
+            width: 40px;
+            height: 40px;
         }
+
+        .img-carrinho{
+            width: 40px;
+            height: 40px;
+            margin-left: 250px;
+            margin-top: 20px;
+        }
+
         .endereço-img {
             width: 20px;
             height: 20px;
@@ -180,7 +204,7 @@
             margin-top: 20px;
         }
         .entrar{
-            margin-left: 630px;
+            margin-left: 740px;
             margin-top: 20px;
             font-size: 35px;
             color: rgb(149, 231, 55);
@@ -219,7 +243,15 @@
         </div>
         <form class="form-busca-site" action="busca.php">
             <input class="btn-text-top" type="text" name="txtsearch" placeholder="Buscar">
+            <div>
+                <button class="btn-buscar-top" type="submit"></button>
+            </div>
         </form>
+        <div class="carrinho-cabecalho">
+            <a href="carrinho.html">
+                <img class="img-carrinho" src="carrinho-img.png" alt="carrinho">
+            </a>
+        </div>
     </header>
     <nav id="menu-h">
         <ul>
@@ -235,7 +267,7 @@
             <li><a href="login.html">Entrar</a></li>
         </ul>
     </nav>
-    <li><a href="#"><img class="oferta-img" src="50_.pngs" alt=""></a></li>
+    <li><a href=""><img class="oferta-img" src="50_.png" alt=""></a></li>
     <br>
     </div>
     
@@ -243,12 +275,12 @@
  <p class="entrar">ENTRAR</p>
 <div class="retan">
     <div class="form" >
-        <form action=" login.php" method="post">  
+        <form action="/temperos/login.php" method="post">  
         <p class="texto">Email:</p>
-        <input class="form" type="Email"  name="Email" size="50">
+        <input class="form" type="email"  name="email" size="50">
         <br>
         <p class="texto">Senha:</p>
-        <input class="form" type="password" name="Senha"  size="20">
+        <input class="form" type="password" name="senha"  size="20">
         <br>
         <button class="btn1" type="submit">
             <p>Entrar</p>    
